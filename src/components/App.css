@@ -1,0 +1,188 @@
+/* Styles go here */
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap");
+body{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'IBM Plex Sans', sans-serif;
+	overflow-x: hidden;
+}
+@keyframes go{
+	0%{
+		content:"Welcome To The World Of Books";
+	}25%{
+		content:"Find All Your Favourite Books For Free";
+	}50%{
+		content:"Enter The New World Of Reading";
+	}75%{
+		content:"Share Your Pdf's With Fastest Speed";
+	}100%{
+		content:"' Stay Tuned '";
+	}
+} 
+#h1,#h3{
+	font-family: 'IBM Plex Sans', sans-serif;
+}
+#info img{
+	transition: 0.5s all ease-in-out;
+}
+#info img:hover{
+	transform: scale(1.1);
+}
+#First_Nav .brand{
+	width: 80px;
+	height: 80px;
+}
+#show{
+	display: grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-template-rows: 1fr;
+}
+#show div{
+	box-shadow: 0px 10px 10px black;
+}
+header h1{
+	font-size: 60px;
+	text-shadow: 0px 1px 1px black;
+}
+#animate::after{
+	content:"Welcome To The World Of Books";
+	animation:go 20s ease-in-out infinite alternate;
+}
+#first{
+	width:300px;
+	height:60vh;
+	background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/action-thriller-book-cover-design-template-3675ae3e3ac7ee095fc793ab61b812cc_screen.jpg?ts=1588152105);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform-style: preserve-3d;
+	perspective: 1000px;
+	margin-top: -12%;
+	transform: rotateX(20deg) rotateY(35deg);
+	transition: 0.5s all ease-in-out;
+}
+#second{
+	width:300px;
+	height:60vh;
+	background-image: url(https://images.squarespace-cdn.com/content/v1/5202d1b3e4b099a0812c51a3/1483134080936-K240V6OPPWM2J7NY8SE8/Blood-Stained.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transform-style: preserve-3d;
+	perspective: 1000px;
+	transition: 0.5s all ease-in-out;
+}
+#third{
+	width:300px;
+	height:60vh;
+	background-image: url(https://d1csarkz8obe9u.cloudfront.net/posterpreviews/thriller-suspense-book-cover-design-template-1438d47348d378a3f26d2c78a2b48a54_screen.jpg?ts=1588747772);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: -12%;
+	transform: rotateX(-20deg) rotateY(35deg);
+	transform-style: preserve-3d;
+	perspective: 1000px;
+	transition: 0.5s all ease-in-out;
+}
+#first:hover{
+	transform: scale(1.1);
+	margin-top:0px;
+	transform: rotateX(0deg) rotateY(0deg);
+	box-shadow: 0px 20px 20px #1A5276;
+}
+#second:hover{
+	transform: scale(1.05);
+	box-shadow: 0px 20px 20px khaki;
+}
+#third:hover{
+	transform: scale(1.1);
+	margin-top:0px;
+	transform: rotateX(0deg) rotateY(0deg);
+	box-shadow: 0px 20px 20px lightcoral;
+}
+@media(max-width: 1400px){
+	#first,#second,#third{
+		width: 250px;
+		height: 55vh;
+	}
+	header h1{
+		font-size: 40px;
+	}
+}
+@media(max-width: 1200px){
+	#first,#second,#third{
+		width: 200px;
+		height: 40vh;
+	}
+}
+@media(max-width: 950px){
+	#first,#second,#third{
+		width: 150px;
+		height: 30vh;
+	}
+	header h1{
+		font-size: 30px;
+	}
+}
+@media(max-width: 770px){
+	#first,#second,#third{
+		width: 150px;
+		height: 30vh;
+		margin-left: 40px;
+	}
+	header h1{
+		font-size: 30px;
+	}
+}
+@media(max-width: 600px){
+	#first,#second,#third{
+		width: 180px;
+		height: 40vh;
+		margin-left: -8px;
+	}
+	#first{
+		z-index: 1;
+	}
+	header h1{
+		font-size: 20px;
+	}
+	#show div{
+		box-shadow: 0px 5px 5px black;
+	}
+}
+@media(max-width: 500px){
+	#first,#second,#third{
+		width: 110px;
+		height: 20vh;
+		margin-left: 20px;
+	}
+	header h1{
+		font-size: 20px;
+	}
+	#show div{
+		box-shadow: 0px 5px 5px black;
+	}
+}
+@media(max-width: 400px){
+	#second{
+		z-index: 1;
+	}
+	#first,#second,#third{
+		width: 110px;
+		height: 25vh;
+		margin-left: -1px;
+	}
+}
+@media(max-width: 300px){
+	#second{
+		z-index: 1;
+	}
+	#first,#second,#third{
+		width: 100px;
+		height: 25vh;
+		margin-left: -13px;
+	}
+}
