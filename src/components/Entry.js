@@ -50,6 +50,7 @@ class Entry extends Component{
 								<input id="new_password" className="form-control mb-3" type="password" name="new_password" required/>
 								<button className="btn btn-dark mt-3 mb-3" type="submit" onClick={this.props.Sign_Hash}>Signup</button>
 							</form>
+							<small id="hash-show"></small>
 							</div>
 						</div>
 						</div>

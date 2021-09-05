@@ -23,25 +23,25 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"internalType\":\"string\",\"name\":\"str\",\"type\":\"string\"}],\"name\":\"get_Hash\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/HP/Desktop/BookStore/src/contracts/secureLogin.sol\":\"secureLogin\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/HP/Desktop/BookStore/src/contracts/secureLogin.sol\":{\"keccak256\":\"0x558bad6bf08a674e7e38ceeb89e8b8573a44a8de365f2c11e6148b0e226e4cae\",\"urls\":[\"bzz-raw://915b5c4744cb7dbd56b4183e5ca61a3b2780ed1e42702de1eb8366de9cf2513f\",\"dweb:/ipfs/QmcFqTbGPrj34ZfNLxKbhdgSxaTZ2XUNZ4ut4Kia3VTFiz\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b506101af806100206000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c8063144dc0ab14610030575b600080fd5b6100e96004803603602081101561004657600080fd5b810190808035906020019064010000000081111561006357600080fd5b82018360208201111561007557600080fd5b8035906020019184600183028401116401000000008311171561009757600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f8201169050808301925050505050505091929192905050506100ff565b6040518082815260200191505060405180910390f35b6000816040516020018082805190602001908083835b602083106101385780518252602082019150602081019050602083039250610115565b6001836020036101000a03801982511681845116808217855250505050505090500191505060405160208183030381529060405280519060200120905091905056fea265627a7a72315820de624b96e9fc2330fe30e52f36198ce3580ef67d33cefbc8fc1f54314254e48e64736f6c63430005100032",
-  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c8063144dc0ab14610030575b600080fd5b6100e96004803603602081101561004657600080fd5b810190808035906020019064010000000081111561006357600080fd5b82018360208201111561007557600080fd5b8035906020019184600183028401116401000000008311171561009757600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f8201169050808301925050505050505091929192905050506100ff565b6040518082815260200191505060405180910390f35b6000816040516020018082805190602001908083835b602083106101385780518252602082019150602081019050602083039250610115565b6001836020036101000a03801982511681845116808217855250505050505090500191505060405160208183030381529060405280519060200120905091905056fea265627a7a72315820de624b96e9fc2330fe30e52f36198ce3580ef67d33cefbc8fc1f54314254e48e64736f6c63430005100032",
-  "sourceMap": "27:165:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:165:0;;;;;;;",
-  "deployedSourceMap": "27:165:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:165:0;;;;;;;;;;;;;;;;;;;60:123;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;60:123:0;;;;;;;;;;21:11:-1;8;5:28;2:2;;;46:1;43;36:12;2:2;60:123:0;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;60:123:0;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;60:123:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;93:3;85:6;81:16;74:27;137:4;133:9;126:4;121:3;117:14;113:30;106:37;;169:3;161:6;157:16;147:26;;60:123:0;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;117:7;170:3;153:21;;;;;;;;;;;;;;;36:153:-1;66:2;61:3;58:11;36:153;;182:3;176:10;171:3;164:23;98:2;93:3;89:12;82:19;;123:2;118:3;114:12;107:19;;148:2;143:3;139:12;132:19;;36:153;;;274:1;267:3;263:2;259:12;254:3;250:22;246:30;315:4;311:9;305:3;299:10;295:26;356:4;350:3;344:10;340:21;389:7;380;377:20;372:3;365:33;3:399;;;153:21:0;;;;;;;;;;;49:4:-1;39:7;30;26:21;22:32;13:7;6:49;153:21:0;;;143:32;;;;;;136:39;;60:123;;;:::o",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[{\"internalType\":\"string\",\"name\":\"str\",\"type\":\"string\"}],\"name\":\"get_Hash\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"payable\":false,\"stateMutability\":\"pure\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/HP/Desktop/Git/Login-Page-front-End-/src/contracts/secureLogin.sol\":\"secureLogin\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/HP/Desktop/Git/Login-Page-front-End-/src/contracts/secureLogin.sol\":{\"keccak256\":\"0x558bad6bf08a674e7e38ceeb89e8b8573a44a8de365f2c11e6148b0e226e4cae\",\"urls\":[\"bzz-raw://915b5c4744cb7dbd56b4183e5ca61a3b2780ed1e42702de1eb8366de9cf2513f\",\"dweb:/ipfs/QmcFqTbGPrj34ZfNLxKbhdgSxaTZ2XUNZ4ut4Kia3VTFiz\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b506101af806100206000396000f3fe608060405234801561001057600080fd5b506004361061002b5760003560e01c8063144dc0ab14610030575b600080fd5b6100e96004803603602081101561004657600080fd5b810190808035906020019064010000000081111561006357600080fd5b82018360208201111561007557600080fd5b8035906020019184600183028401116401000000008311171561009757600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f8201169050808301925050505050505091929192905050506100ff565b6040518082815260200191505060405180910390f35b6000816040516020018082805190602001908083835b602083106101385780518252602082019150602081019050602083039250610115565b6001836020036101000a03801982511681845116808217855250505050505090500191505060405160208183030381529060405280519060200120905091905056fea265627a7a72315820c328b03d98844292f42b4838b239a9cc0516a8d460a6110d42521436ce2a8d9564736f6c63430005100032",
+  "deployedBytecode": "0x608060405234801561001057600080fd5b506004361061002b5760003560e01c8063144dc0ab14610030575b600080fd5b6100e96004803603602081101561004657600080fd5b810190808035906020019064010000000081111561006357600080fd5b82018360208201111561007557600080fd5b8035906020019184600183028401116401000000008311171561009757600080fd5b91908080601f016020809104026020016040519081016040528093929190818152602001838380828437600081840152601f19601f8201169050808301925050505050505091929192905050506100ff565b6040518082815260200191505060405180910390f35b6000816040516020018082805190602001908083835b602083106101385780518252602082019150602081019050602083039250610115565b6001836020036101000a03801982511681845116808217855250505050505090500191505060405160208183030381529060405280519060200120905091905056fea265627a7a72315820c328b03d98844292f42b4838b239a9cc0516a8d460a6110d42521436ce2a8d9564736f6c63430005100032",
+  "sourceMap": "27:165:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:165:1;;;;;;;",
+  "deployedSourceMap": "27:165:1:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;27:165:1;;;;;;;;;;;;;;;;;;;60:123;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;60:123:1;;;;;;;;;;21:11:-1;8;5:28;2:2;;;46:1;43;36:12;2:2;60:123:1;;35:9:-1;28:4;12:14;8:25;5:40;2:2;;;58:1;55;48:12;2:2;60:123:1;;;;;;100:9:-1;95:1;81:12;77:20;67:8;63:35;60:50;39:11;25:12;22:29;11:107;8:2;;;131:1;128;121:12;8:2;60:123:1;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;30:3:-1;22:6;14;1:33;99:1;93:3;85:6;81:16;74:27;137:4;133:9;126:4;121:3;117:14;113:30;106:37;;169:3;161:6;157:16;147:26;;60:123:1;;;;;;;;;;;;;;;:::i;:::-;;;;;;;;;;;;;;;;;;;;117:7;170:3;153:21;;;;;;;;;;;;;;;36:153:-1;66:2;61:3;58:11;36:153;;182:3;176:10;171:3;164:23;98:2;93:3;89:12;82:19;;123:2;118:3;114:12;107:19;;148:2;143:3;139:12;132:19;;36:153;;;274:1;267:3;263:2;259:12;254:3;250:22;246:30;315:4;311:9;305:3;299:10;295:26;356:4;350:3;344:10;340:21;389:7;380;377:20;372:3;365:33;3:399;;;153:21:1;;;;;;;;;;;49:4:-1;39:7;30;26:21;22:32;13:7;6:49;153:21:1;;;143:32;;;;;;136:39;;60:123;;;:::o",
   "source": "pragma solidity ^0.5.1;\r\n\r\ncontract secureLogin{\r\n    \r\n    function get_Hash(string memory str) public pure returns(bytes32){\r\n        return keccak256(abi.encodePacked(str));\r\n    }\r\n    \r\n}",
-  "sourcePath": "C:/Users/HP/Desktop/BookStore/src/contracts/secureLogin.sol",
+  "sourcePath": "C:/Users/HP/Desktop/Git/Login-Page-front-End-/src/contracts/secureLogin.sol",
   "ast": {
-    "absolutePath": "/C/Users/HP/Desktop/BookStore/src/contracts/secureLogin.sol",
+    "absolutePath": "/C/Users/HP/Desktop/Git/Login-Page-front-End-/src/contracts/secureLogin.sol",
     "exportedSymbols": {
       "secureLogin": [
-        17
+        50
       ]
     },
-    "id": 18,
+    "id": 51,
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 1,
+        "id": 34,
         "literals": [
           "solidity",
           "^",
@@ -49,7 +49,7 @@
           ".1"
         ],
         "nodeType": "PragmaDirective",
-        "src": "0:23:0"
+        "src": "0:23:1"
       },
       {
         "baseContracts": [],
@@ -57,18 +57,18 @@
         "contractKind": "contract",
         "documentation": null,
         "fullyImplemented": true,
-        "id": 17,
+        "id": 50,
         "linearizedBaseContracts": [
-          17
+          50
         ],
         "name": "secureLogin",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "body": {
-              "id": 15,
+              "id": 48,
               "nodeType": "Block",
-              "src": "125:58:0",
+              "src": "125:58:1",
               "statements": [
                 {
                   "expression": {
@@ -79,12 +79,12 @@
                         "arguments": [
                           {
                             "argumentTypes": null,
-                            "id": 11,
+                            "id": 44,
                             "name": "str",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 3,
-                            "src": "170:3:0",
+                            "referencedDeclaration": 36,
+                            "src": "170:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_string_memory_ptr",
                               "typeString": "string memory"
@@ -100,18 +100,18 @@
                           ],
                           "expression": {
                             "argumentTypes": null,
-                            "id": 9,
+                            "id": 42,
                             "name": "abi",
                             "nodeType": "Identifier",
                             "overloadedDeclarations": [],
-                            "referencedDeclaration": 19,
-                            "src": "153:3:0",
+                            "referencedDeclaration": 52,
+                            "src": "153:3:1",
                             "typeDescriptions": {
                               "typeIdentifier": "t_magic_abi",
                               "typeString": "abi"
                             }
                           },
-                          "id": 10,
+                          "id": 43,
                           "isConstant": false,
                           "isLValue": false,
                           "isPure": true,
@@ -119,13 +119,13 @@
                           "memberName": "encodePacked",
                           "nodeType": "MemberAccess",
                           "referencedDeclaration": null,
-                          "src": "153:16:0",
+                          "src": "153:16:1",
                           "typeDescriptions": {
                             "typeIdentifier": "t_function_abiencodepacked_pure$__$returns$_t_bytes_memory_ptr_$",
                             "typeString": "function () pure returns (bytes memory)"
                           }
                         },
-                        "id": 12,
+                        "id": 45,
                         "isConstant": false,
                         "isLValue": false,
                         "isPure": false,
@@ -133,7 +133,7 @@
                         "lValueRequested": false,
                         "names": [],
                         "nodeType": "FunctionCall",
-                        "src": "153:21:0",
+                        "src": "153:21:1",
                         "typeDescriptions": {
                           "typeIdentifier": "t_bytes_memory_ptr",
                           "typeString": "bytes memory"
@@ -147,18 +147,18 @@
                           "typeString": "bytes memory"
                         }
                       ],
-                      "id": 8,
+                      "id": 41,
                       "name": "keccak256",
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
-                      "referencedDeclaration": 26,
-                      "src": "143:9:0",
+                      "referencedDeclaration": 59,
+                      "src": "143:9:1",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_keccak256_pure$_t_bytes_memory_ptr_$returns$_t_bytes32_$",
                         "typeString": "function (bytes memory) pure returns (bytes32)"
                       }
                     },
-                    "id": 13,
+                    "id": 46,
                     "isConstant": false,
                     "isLValue": false,
                     "isPure": false,
@@ -166,37 +166,37 @@
                     "lValueRequested": false,
                     "names": [],
                     "nodeType": "FunctionCall",
-                    "src": "143:32:0",
+                    "src": "143:32:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
                     }
                   },
-                  "functionReturnParameters": 7,
-                  "id": 14,
+                  "functionReturnParameters": 40,
+                  "id": 47,
                   "nodeType": "Return",
-                  "src": "136:39:0"
+                  "src": "136:39:1"
                 }
               ]
             },
             "documentation": null,
-            "id": 16,
+            "id": 49,
             "implemented": true,
             "kind": "function",
             "modifiers": [],
             "name": "get_Hash",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 4,
+              "id": 37,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 3,
+                  "id": 36,
                   "name": "str",
                   "nodeType": "VariableDeclaration",
-                  "scope": 16,
-                  "src": "78:17:0",
+                  "scope": 49,
+                  "src": "78:17:1",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -204,10 +204,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 2,
+                    "id": 35,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "78:6:0",
+                    "src": "78:6:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -217,19 +217,19 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "77:19:0"
+              "src": "77:19:1"
             },
             "returnParameters": {
-              "id": 7,
+              "id": 40,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 6,
+                  "id": 39,
                   "name": "",
                   "nodeType": "VariableDeclaration",
-                  "scope": 16,
-                  "src": "117:7:0",
+                  "scope": 49,
+                  "src": "117:7:1",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -237,10 +237,10 @@
                     "typeString": "bytes32"
                   },
                   "typeName": {
-                    "id": 5,
+                    "id": 38,
                     "name": "bytes32",
                     "nodeType": "ElementaryTypeName",
-                    "src": "117:7:0",
+                    "src": "117:7:1",
                     "typeDescriptions": {
                       "typeIdentifier": "t_bytes32",
                       "typeString": "bytes32"
@@ -250,27 +250,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "116:9:0"
+              "src": "116:9:1"
             },
-            "scope": 17,
-            "src": "60:123:0",
+            "scope": 50,
+            "src": "60:123:1",
             "stateMutability": "pure",
             "superFunction": null,
             "visibility": "public"
           }
         ],
-        "scope": 18,
-        "src": "27:165:0"
+        "scope": 51,
+        "src": "27:165:1"
       }
     ],
-    "src": "0:192:0"
+    "src": "0:192:1"
   },
   "legacyAST": {
     "attributes": {
-      "absolutePath": "/C/Users/HP/Desktop/BookStore/src/contracts/secureLogin.sol",
+      "absolutePath": "/C/Users/HP/Desktop/Git/Login-Page-front-End-/src/contracts/secureLogin.sol",
       "exportedSymbols": {
         "secureLogin": [
-          17
+          50
         ]
       }
     },
@@ -284,9 +284,9 @@
             ".1"
           ]
         },
-        "id": 1,
+        "id": 34,
         "name": "PragmaDirective",
-        "src": "0:23:0"
+        "src": "0:23:1"
       },
       {
         "attributes": {
@@ -300,10 +300,10 @@
           "documentation": null,
           "fullyImplemented": true,
           "linearizedBaseContracts": [
-            17
+            50
           ],
           "name": "secureLogin",
-          "scope": 18
+          "scope": 51
         },
         "children": [
           {
@@ -316,7 +316,7 @@
                 null
               ],
               "name": "get_Hash",
-              "scope": 17,
+              "scope": 50,
               "stateMutability": "pure",
               "superFunction": null,
               "visibility": "public"
@@ -328,7 +328,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "str",
-                      "scope": 16,
+                      "scope": 49,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "string",
@@ -341,19 +341,19 @@
                           "name": "string",
                           "type": "string"
                         },
-                        "id": 2,
+                        "id": 35,
                         "name": "ElementaryTypeName",
-                        "src": "78:6:0"
+                        "src": "78:6:1"
                       }
                     ],
-                    "id": 3,
+                    "id": 36,
                     "name": "VariableDeclaration",
-                    "src": "78:17:0"
+                    "src": "78:17:1"
                   }
                 ],
-                "id": 4,
+                "id": 37,
                 "name": "ParameterList",
-                "src": "77:19:0"
+                "src": "77:19:1"
               },
               {
                 "children": [
@@ -361,7 +361,7 @@
                     "attributes": {
                       "constant": false,
                       "name": "",
-                      "scope": 16,
+                      "scope": 49,
                       "stateVariable": false,
                       "storageLocation": "default",
                       "type": "bytes32",
@@ -374,25 +374,25 @@
                           "name": "bytes32",
                           "type": "bytes32"
                         },
-                        "id": 5,
+                        "id": 38,
                         "name": "ElementaryTypeName",
-                        "src": "117:7:0"
+                        "src": "117:7:1"
                       }
                     ],
-                    "id": 6,
+                    "id": 39,
                     "name": "VariableDeclaration",
-                    "src": "117:7:0"
+                    "src": "117:7:1"
                   }
                 ],
-                "id": 7,
+                "id": 40,
                 "name": "ParameterList",
-                "src": "116:9:0"
+                "src": "116:9:1"
               },
               {
                 "children": [
                   {
                     "attributes": {
-                      "functionReturnParameters": 7
+                      "functionReturnParameters": 40
                     },
                     "children": [
                       {
@@ -421,13 +421,13 @@
                               "overloadedDeclarations": [
                                 null
                               ],
-                              "referencedDeclaration": 26,
+                              "referencedDeclaration": 59,
                               "type": "function (bytes memory) pure returns (bytes32)",
                               "value": "keccak256"
                             },
-                            "id": 8,
+                            "id": 41,
                             "name": "Identifier",
-                            "src": "143:9:0"
+                            "src": "143:9:1"
                           },
                           {
                             "attributes": {
@@ -467,18 +467,18 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 19,
+                                      "referencedDeclaration": 52,
                                       "type": "abi",
                                       "value": "abi"
                                     },
-                                    "id": 9,
+                                    "id": 42,
                                     "name": "Identifier",
-                                    "src": "153:3:0"
+                                    "src": "153:3:1"
                                   }
                                 ],
-                                "id": 10,
+                                "id": 43,
                                 "name": "MemberAccess",
-                                "src": "153:16:0"
+                                "src": "153:16:1"
                               },
                               {
                                 "attributes": {
@@ -486,48 +486,48 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 3,
+                                  "referencedDeclaration": 36,
                                   "type": "string memory",
                                   "value": "str"
                                 },
-                                "id": 11,
+                                "id": 44,
                                 "name": "Identifier",
-                                "src": "170:3:0"
+                                "src": "170:3:1"
                               }
                             ],
-                            "id": 12,
+                            "id": 45,
                             "name": "FunctionCall",
-                            "src": "153:21:0"
+                            "src": "153:21:1"
                           }
                         ],
-                        "id": 13,
+                        "id": 46,
                         "name": "FunctionCall",
-                        "src": "143:32:0"
+                        "src": "143:32:1"
                       }
                     ],
-                    "id": 14,
+                    "id": 47,
                     "name": "Return",
-                    "src": "136:39:0"
+                    "src": "136:39:1"
                   }
                 ],
-                "id": 15,
+                "id": 48,
                 "name": "Block",
-                "src": "125:58:0"
+                "src": "125:58:1"
               }
             ],
-            "id": 16,
+            "id": 49,
             "name": "FunctionDefinition",
-            "src": "60:123:0"
+            "src": "60:123:1"
           }
         ],
-        "id": 17,
+        "id": 50,
         "name": "ContractDefinition",
-        "src": "27:165:0"
+        "src": "27:165:1"
       }
     ],
-    "id": 18,
+    "id": 51,
     "name": "SourceUnit",
-    "src": "0:192:0"
+    "src": "0:192:1"
   },
   "compiler": {
     "name": "solc",
@@ -537,12 +537,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0xb580008A309938e7D517699F6fE3F4E1F7FD0843",
-      "transactionHash": "0x2a38ba4db6c9f853be09a571e0c0abc6a0a51fb2488a38dcf6f06e3cc6d00f31"
+      "address": "0x59aBE157714f59C57D76b2EfC4400973beBA678c",
+      "transactionHash": "0xb50b384278438135ec0f3d9fa167d798fca70bc82d07932c2b4f233faa1aca10"
     }
   },
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-08-25T13:24:35.077Z",
+  "updatedAt": "2021-09-04T15:14:20.600Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

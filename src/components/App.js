@@ -97,6 +97,9 @@ class App extends Component{
 		}).then(async(result)=>{
 			const res = await result.json();
 			console.log(JSON.stringify(res));
+			if(JSON.stringify(res) == 'Signup successfull'){
+				document.getElementById('hash-show').innerHTML = `Remember this hash this will help you in case you want to change password or delete account ${recover}   `
+			}
 		});
 	}
 	Fpwd = async (event) =>{
